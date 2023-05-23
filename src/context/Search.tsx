@@ -12,8 +12,9 @@ type Children = { children: ReactNode}
 
 export function ProviderSearch({children}:Children) {
   const [search, setSearch] = useState('')
+  const [filter, setFilter] = useState(null)
 
-  const value={search, setSearch}
+  const value={search, setSearch, filter, setFilter}
   return <ContextSearch.Provider value={value}>
     {children}
   </ContextSearch.Provider>
