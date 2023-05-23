@@ -1,0 +1,22 @@
+.nav{
+  padding: 30px var(--Padin);
+  border: 2px solid #e40a0a;
+}
+
+.header{
+  align-items: center;
+  background-image: url('../../assets/img/header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 300px;
+  padding: 0 var(--Padin);
+}
+
+.header_text{
+  color: white;
+  font-size: 5rem;
+  font-family: var(--Font-Italina);
+  min-width: 400px;
+  width: 40%;
+}

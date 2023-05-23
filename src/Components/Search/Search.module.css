@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 42px;
+  font-family: var(--Font-Italina);
+  padding-left: var(--Padin);
+  margin-top: 50px;
+  width: 100vw;
+}
+
+.menu__title {
+  color: var(--Dark);
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.container__search{
+  display: flex;
+  align-items: center;
+
+}
+
+.input {
+  background-color: var(--Grey);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: var(--Font-Italina);
+  outline: none;
+  width: 30%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+
+.input::placeholder{
+  padding: 0.2rem
+
+}
+
