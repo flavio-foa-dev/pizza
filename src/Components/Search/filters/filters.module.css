@@ -1,0 +1,30 @@
+.filters {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.filters__tag {
+  align-items: center;
+  background-color: var(--Grey);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  font-size: 1.25rem;
+  font-family: var(--Italina);
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  width: 150px;
+
+}
+
+.filters_tag_active {
+  background-color: var(--Blue);
+  color: white;
+}
+
+.filters__tag:hover {
+  cursor: pointer;
+}

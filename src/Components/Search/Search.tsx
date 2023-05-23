@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import styles from './Search.module.css'
 import { ContextSearch } from '../../context/Search'
 import {CgSearch} from "react-icons/cg"
+import Filters from './filters/Filters'
 
 export default function Search() {
   const { search, setSearch } = useContext<any>(ContextSearch)
@@ -27,6 +28,7 @@ export default function Search() {
       ></CgSearch>
       </div>
       <div className={styles.menu__filters}>
+      <Filters />
 
       </div>
     </section>
