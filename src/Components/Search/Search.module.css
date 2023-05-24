@@ -17,7 +17,6 @@
 .container__search{
   display: flex;
   align-items: center;
-
 }
 
 .input {
@@ -28,8 +27,8 @@
   font-family: var(--Font-Italina);
   outline: none;
   width: 30%;
-  padding: 0.6rem;
-  border-radius: 0.5rem;
+  padding: 0.6rem 2rem;
+  border-radius: 0.2rem;
 }
 
 
@@ -38,3 +37,6 @@
 
 }
 
+.icon{
+  margin-right: 22rem;
+}
