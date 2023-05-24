@@ -1,13 +1,13 @@
-import styles from './sort.module.css'
-import sorting from '../../data/sorting.json'
-import { useContext, useState } from 'react'
-import {MdKeyboardArrowDown, MdKeyboardArrowUp} from "react-icons/md"
-import { ContextSearch } from '../../context/Search'
+import styles from './sort.module.css';
+import sorting from '../../data/sorting.json';
+import { useContext, useState } from 'react';
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import { ContextSearch } from "../../context/Search";
 
 export default function Sort() {
-  const {sort, setSort} = useContext<any>(ContextSearch)
-  const [toggle, setToggle] = useState(false)
-  const orderName = sort && sorting.find(s => s.value === sort)?.nome
+  const {sort, setSort} = useContext<any>(ContextSearch);
+  const [toggle, setToggle] = useState(false);
+  const orderName = sort && sorting.find(s => s.value === sort)?.nome;
 
   return (
     <button
