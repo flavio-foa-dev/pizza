@@ -71,4 +71,9 @@ body {
   --Desktop_xsm: 980px;
   --Desktop_sm: 1080px;
   --Desktop_md: 1280px;
+
+  --Massas: #d73b3b;
+  --Carnes: #30201e;
+  --Combos: #e6c864;
+  --Veganos: #80aa40;
 }

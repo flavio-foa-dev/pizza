@@ -4,6 +4,7 @@ import { ContextSearch } from '../../context/Search'
 import {CgSearch} from "react-icons/cg"
 import Filters from './filters/Filters'
 import Sort from '../Sort/Sort'
+import ListCard from '../Listcard/ListCard'
 
 export default function Search() {
   const { search, setSearch } = useContext<any>(ContextSearch)
@@ -21,7 +22,7 @@ export default function Search() {
         type='text'
         required
         value={search}
-        placeholder="Busca . . ."
+        placeholder="Busca . ."
       />
       <CgSearch
         className={styles.icon}
@@ -32,8 +33,8 @@ export default function Search() {
       </div>
       <div className={styles.menu__filters}>
       <Filters />
-
       </div>
+      <ListCard />
     </section>
   )
 }
