@@ -1,4 +1,4 @@
-import {ReactNode, SetStateAction, createContext, useState} from "react"
+import {ReactNode, SetStateAction, createContext, useState} from 'react';
 
 type Contexte = {
   search?:string;
@@ -7,18 +7,18 @@ type Contexte = {
   setSort?: React.Dispatch<SetStateAction<string>>
 }
 
-export const ContextSearch = createContext<Contexte | undefined>(undefined)
-ContextSearch.displayName = "Search"
+export const ContextSearch = createContext<Contexte | undefined>(undefined);
+ContextSearch.displayName = 'Search';
 
 type Children = { children: ReactNode}
 
 export function ProviderSearch({children}:Children) {
-  const [search, setSearch] = useState('')
-  const [filter, setFilter] = useState(null)
-  const [sort, setSort] = useState('')
+  const [search, setSearch] = useState('');
+  const [filter, setFilter] = useState(null);
+  const [sort, setSort] = useState('');
 
-  const value={search, setSearch, filter, setFilter, sort, setSort}
+  const value={search, setSearch, filter, setFilter, sort, setSort};
   return <ContextSearch.Provider value={value}>
     {children}
-  </ContextSearch.Provider>
+  </ContextSearch.Provider>;
 }

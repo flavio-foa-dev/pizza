@@ -7,5 +7,5 @@ export default function Footer() {
       <p>Experimente nosaas pizzas ou se encha de agua na boca</p>
       <img src="" alt="logo" title="logo"/>
     </footer>
-  )
+  );
 }

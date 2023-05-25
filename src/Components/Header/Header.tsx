@@ -1,11 +1,11 @@
-import styles from './Header.module.css'
-import logo from "../../assets/logo.svg"
+import styles from './Header.module.css';
+import logo from '../../assets/logo.svg';
 
 export default function Header() {
   return (
     <header>
       <nav className={styles.nav}>
-      <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" />
       </nav>
 
       <div className={styles.header}>
@@ -13,5 +13,5 @@ export default function Header() {
       </div>
 
     </header>
-  )
+  );
 }
