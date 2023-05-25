@@ -1,5 +1,5 @@
-import Header from "../Components/Header/Header";
-import Search from "../Components/Search/Search";
+import Header from '../Components/Header/Header';
+import Search from '../Components/Search/Search';
 
 export default function Home() {
   return (
@@ -7,5 +7,5 @@ export default function Home() {
       <Header/>
       <Search />
     </>
-  )
+  );
 }
