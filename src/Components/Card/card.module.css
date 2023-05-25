@@ -8,51 +8,52 @@
   min-width: 240px;
 }
 
-/* &__descricao {
+.item__description {
   display: flex;
   flex: 1;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 20px;
-  @media (max-width: $desktop_xsm) {
+  @media (max-width: var(--Desktop_xsm)) {
     flex-direction: row;
     margin-top: 20px;
     padding: 0;
   }
 }
 
-&__titulo {
-  h2 {
+.item__title h2{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  p {
-    color: $dark-grey;
-    font-size: 1.3rem;
-    font-weight: 600;
-    max-width: 600px;
-    margin-bottom: 20px;
-  }
 }
-&__tags {
+
+.item__title p {
+  color: var(--Dark-grey);
+  font-size: 1.3rem;
+  font-weight: 600;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.item__tags {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
   max-width: 700px;
-  @media (max-width: $desktop_xsm) {
+  @media (max-width: var(--Desktop_xsm)) {
     justify-content: flex-end;
   }
-  @media (max-width: $mobile) {
+  @media (max-width: var(--Mobile)) {
     justify-content: flex-start;
   }
   > div {
     margin: 10px;
   }
 }
-&__tipo {
+
+.item__tipo {
   align-items: center;
   border-radius: 2px;
   display: flex;
@@ -60,34 +61,39 @@
   height: 40px;
   justify-content: center;
   padding: 10px 30px;
-  &__massas {
-    background-color: $massas;
-    color: white;
-  }
-  &__carnes {
-    background-color: $carnes;
-    color: white;
-  }
-  &__combos {
-    background-color: $combos;
-  }
-  &__veganos {
-    background-color: $veganos;
-  }
 }
-&__porcao,
-&__qtdpessoas,
-&__valor {
+
+.item__tipo__massas {
+  background-color: var(--Massas);
+  color: white;
+}
+
+.item__tipo__carnes {
+  background-color: var(--Carnes);
+  color: white;
+}
+.item__tipo__combos {
+  background-color: var(--Combos);
+}
+.item__tipo__veganos {
+  background-color: var(--Veganos);
+}
+
+
+.item__porcao,
+.item__qtdpessoas,
+.item__valor {
   align-items: center;
   display: flex;
   font-size: 1.25rem;
   font-weight: bold;
   justify-content: center;
 }
-&__valor {
-  color: $red;
+
+.item__valor {
+  color: var(--Red);
   font-size: 1.7rem;
-} */
+}
 
 
 
