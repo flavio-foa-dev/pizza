@@ -7,6 +7,10 @@
 .item__img {
   min-width: 240px;
 }
+.img{
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 .item__description {
   display: flex;
