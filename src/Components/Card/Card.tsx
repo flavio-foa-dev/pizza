@@ -30,6 +30,7 @@ export default function Card(props: Props) {
           <div className={styles.item__valor}>R$ {price.toFixed(2)}</div>
         </div>
       </div>
+
     </div>
   );
 }
