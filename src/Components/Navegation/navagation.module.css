@@ -1,0 +1,33 @@
+.nav{
+  padding: 30px var(--Padin);
+  border: 2px solid #e40a0a;
+  display: flex;
+  font-family: var(--Font-Italina);
+
+}
+
+.nav__list {
+  align-items: center;
+  display: flex;
+}
+
+.nav__link {
+  list-style-type: none;
+  padding: 0 20px;
+
+}
+
+
+.nav__link a {
+  color: var(--Dark);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .2s ease;
+}
+
+.nav__link a:hover {
+  color: var(--Dark-grey);
+}
+
