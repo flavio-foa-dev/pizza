@@ -11,7 +11,7 @@ export default function Card(props: Props) {
     <div className={styles.item}>
 
       <div className={styles.item__img}>
-        <img src={photo} alt={title} title={title}/>
+        <img className={styles.img} src={photo} alt={title} title={title}/>
       </div>
 
       <div className={styles.item__description}>

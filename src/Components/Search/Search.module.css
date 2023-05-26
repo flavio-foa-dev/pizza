@@ -1,11 +1,9 @@
 .menu {
   display: flex;
   flex-direction: column;
-  height: 42px;
   font-family: var(--Font-Italina);
   padding-left: var(--Padin);
   margin-top: 50px;
-  width: 100vw;
 }
 
 .menu__title {
@@ -17,6 +15,14 @@
 .container__search{
   display: flex;
   align-items: center;
+}
+
+.menu__filters{
+  border: 2px solid rgb(238, 228, 228);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4rem;
 }
 
 .input {
@@ -31,12 +37,10 @@
   border-radius: 0.2rem;
 }
 
-
 .input::placeholder{
   padding: 0.2rem
-
 }
 
 .icon{
-  margin-right: 22rem;
+  margin-left: -2.4rem;
 }
