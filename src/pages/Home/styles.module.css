@@ -1,3 +1,15 @@
+.container{
+  padding: 20px var(--Padin);;
+  /* @media (max-width: $desktop_xsm) {
+    padding: 50px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 50px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 50px $padding-horizontal-md;
+  } */
+}
 
 .title {
   color: var(--Dark);
@@ -5,19 +17,16 @@
   font-family: var(--Font-Italina);
   margin-bottom: 30px;
   margin-top: 30px;
-
 }
 
 .recomendados {
-  border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
   justify-content: space-between;
 }
 
 .recomendado__imagem {
-    width: 300px;
+    width: 260px;
     margin-bottom: 10px;
 }
 
@@ -41,32 +50,33 @@
 
 .recomendado__botao:hover {
     background-color: var(--Red-dark);
-  }
+}
 
-
-/* .nossaCasa {
+.nossaCasa {
   margin-bottom: 100px;
   position: relative;
   width: 100%;
-  img {
-    border-radius: 5px;
-    width: 100%;
-  }
-  &__endereco {
-    align-items: center;
-    background-color: $dark;
-    border-radius: 5px;
-    bottom: -45px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    height: 100px;
-    justify-content: center;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 200px;
-  }
-} */
+}
+
+.nossaCasa img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.nossaCasa__end {
+  align-items: center;
+  background-color: var(--Dark);
+  border-radius: 5px;
+  bottom: -55px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  height: 100px;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 400px;
+}
