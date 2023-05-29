@@ -1,10 +1,11 @@
 import styles from './styles.module.css';
 import data from '../../data/products.json';
+import nossacasa from '../../assets/nossa_casa.png';
 
 export default function Home() {
   const suggestionOfDishes = [...data].sort(()=> 0.5 - Math.random()).slice(0,3);
   return (
-    <section className={styles.section}>
+    <section className={styles.container}>
       <h3 className={styles.title}>Sugestaoes da casa</h3>
       <div className={styles.recomendados}>
         {suggestionOfDishes.map((item) => (
@@ -18,6 +19,13 @@ export default function Home() {
             <button className={styles.recomendado__botao}>ver mais</button>
           </div>
         ))}
+      </div>
+      <h3 className={styles.title}>Nossa casa</h3>
+      <div className={styles.nossaCasa}>
+        <img src={nossacasa} alt="imagem da pizzaria"/>
+        <div className={styles.nossaCasa__end}>
+          Rua do Arpuador 1875 Barra - RJ <br/><br />Tel: (21) 7956 - 8877
+        </div>
       </div>
     </section>
   );
