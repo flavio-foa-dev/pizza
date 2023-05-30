@@ -1,0 +1,65 @@
+.item__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 700px;
+
+  > div {
+    margin: 10px;
+  }
+}
+
+.item__tipo {
+  align-items: center;
+  border-radius: 2px;
+  display: flex;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.item__tipo__massas {
+  background-color: var(--Massas);
+  color: white;
+}
+
+.item__tipo__carnes {
+  background-color: var(--Carnes);
+  color: white;
+}
+.item__tipo__combos {
+  background-color: var(--Combos);
+}
+.item__tipo__veganos {
+  background-color: var(--Veganos);
+}
+
+
+.item__porcao,
+.item__qtdpessoas,
+.item__valor {
+  align-items: center;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.item__valor {
+  color: var(--Red);
+  font-size: 1.7rem;
+}
+
+@media (max-width: var(--Desktop_xsm)) {
+  .item__tags{
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: var(--Mobile)) {
+  .item__tags{
+    justify-content: flex-start;
+  }
+}
