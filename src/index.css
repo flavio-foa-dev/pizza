@@ -46,19 +46,17 @@ body {
   background-color: #f6f6f6;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 :root {
   --Brancof6: #f6f6f6;
-  --Padin:250px;
   --Font-Italina:'Italiana', serif;
+  --Padding-principal:200px;
+  --Padding-principal2:100px;
 
-	--Padding-horizontal-mobile: 100px;
-  --Padding-horizontal-sm: 150px;
-  --Padding-horizontal-md: 200px;
-  --Padding-horizontal: 250px;
+
   --Dark: #242536;
   --Dark-grey: #92929d;
   --Grey: #e4e4e4;
@@ -66,11 +64,6 @@ body {
   --Light-grey: #f6f6f6;
   --Blue: #282b57;
   --Red: #d73b3b;
-
-	--Mobile: 768px;
-  --Desktop_xsm: 980px;
-  --Desktop_sm: 1080px;
-  --Desktop_md: 1280px;
 
   --Massas: #d73b3b;
   --Carnes: #30201e;

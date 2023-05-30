@@ -1,12 +1,13 @@
 
 .header{
   align-items: center;
-  background-image: url('../../assets/img/header.png');
-  background-size: cover;
+  background-image: url('../../assets/header/hero1.jpg');
+  background-size: cover ;
   background-repeat: no-repeat;
   display: flex;
   height: 300px;
-  padding: 0 var(--Padin);
+  padding: 0 var(--Padding-principal);
+  box-shadow: 1px 1px 1px var(--Red);
 }
 
 .header_text{
@@ -15,4 +16,32 @@
   font-family: var(--Font-Italina);
   min-width: 400px;
   width: 40%;
+}
+
+@media (max-width: 1000px) {
+
+  .header {
+    padding: 0 var(--Padding-principal2);
+  }
+
+  .header_text{
+    font-size: 4rem;
+    width: 40%;
+
+  }
+}
+
+@media (max-width: 780px) {
+
+  .header {
+    padding: 0 var(--Padding-principal2);
+  }
+
+  .header_text{
+    font-size: 4rem;
+    width: 40%;
+    min-width: 350px;
+
+
+  }
 }
