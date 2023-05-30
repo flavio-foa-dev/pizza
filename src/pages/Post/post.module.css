@@ -10,7 +10,6 @@
   font-size: 1.4rem;
   font-weight: bold;
   font-family: var(--Font-Italina);
-
 }
 
 .container {
@@ -26,7 +25,7 @@
 }
 
 .image {
-  width: 600px;
+  width: 500px;
 }
 
 .image img {
@@ -44,68 +43,5 @@
   color: var(--Darkest-grey);
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: var(--Font-Italina);
 }
-.content__description__detalhes {
-  display: flex;
-  justify-content: space-between;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  max-width: 700px;
-}
-
-/* @media (max-width: var(--esktop_xsm)) {
-  justify-content: flex-end;
-}
-@media (max-width: var(--Mobile)) {
-  justify-content: flex-start;
-} */
-
-
-/* div {
-  margin: 100px;
-} */
-.tags__tipo {
-  align-items: center;
-  border-radius: 2px;
-  display: flex;
-  font-weight: bold;
-  height: 40px;
-  justify-content: center;
-  padding: 10px 30px;
-}
-
-.tags__tipo__massas {
-  background-color: var(--Massas);
-  color: white;
-}
-.tags__tipo__carnes {
-  background-color: var(--Carnes);
-  color: white;
-}
-.tags__tipo__combos {
-  background-color: var(--Combos);
-}
-.tags__tipo__veganos {
-  background-color: var(--Veganos);
-}
-
-
-&__porcao,
-&__qtdpessoas,
-&__valor {
-  align-items: center;
-  display: flex;
-  font-size: 1.25rem;
-  font-weight: bold;
-  justify-content: center;
-}
-&__valor {
-  color: var(--Red);
-  font-size: 1.7rem;
-}
-
