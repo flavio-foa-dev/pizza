@@ -32,16 +32,30 @@
 }
 
 @media (max-width: 780px) {
-
   .header {
-    padding: 0 var(--Padding-principal2);
+    padding: 0 var(--Padding-principal3);
+    background-size: 100%;
+    height: 15rem;
   }
 
   .header_text{
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 40%;
-    min-width: 350px;
+    min-width: 300px;
+    padding: 3rem 0;
+  }
+}
 
+@media (max-width: 570px) {
+  .header {
+    padding: 0 var(--Padding-principal3);
+    background-size: 100%;
+  }
 
+  .header_text{
+    font-size: 2.5rem;
+    width: 35%;
+    min-width: 200px;
+    padding: 20px 0;
   }
 }
