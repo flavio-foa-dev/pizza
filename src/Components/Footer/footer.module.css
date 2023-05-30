@@ -1,17 +1,9 @@
 .footer {
-  background-color: var(--Red);
+  background-color: var(--Grey);
   display: flex;
   width: 100%;
   margin-top: 2.7rem;
   justify-content: flex-end;
-  padding: 10px var(--Padding-horizontal);
-  @media (max-width: var(--Desktop_xsm)) {
-  padding: 10px var(--Padding-horizontal-mobile);
-  }
-  @media (min-width: var(--Desktop_xsm)) and (max-width: var(--Desktop_sm)) {
-  padding: 10px var(--Padding-horizontal-sm);
-  }
-  @media (min-width: var(--Desktop_sm)) and (max-width: var(--Desktop_md)) {
-  padding: 10px var(--Padding-horizontal-md);
-  }
+  padding: 1rem var(--Padding-principal);
+  min-height: 6rem;
 }
