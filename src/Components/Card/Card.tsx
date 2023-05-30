@@ -1,14 +1,16 @@
 import styles from './card.module.css';
 import products from '../../data/products.json';
 import classNames from 'classnames';
+import { useNavigate } from 'react-router-dom';
 
 
 type Props = typeof products[0]
 
 export default function Card(props: Props) {
-  const { title, description, category, size, serving, price, photo } = props;
+  const { title, description, category, size, serving, price, photo,id } = props;
+  const navegation = useNavigate();
   return (
-    <div className={styles.item}>
+    <div className={styles.item} onClick={()=> navegation(`/product/${id}`) }>
 
       <div className={styles.item__img}>
         <img className={styles.img} src={photo} alt={title} title={title}/>

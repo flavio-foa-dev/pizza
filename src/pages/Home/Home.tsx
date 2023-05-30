@@ -1,9 +1,17 @@
 import styles from './styles.module.css';
 import data from '../../data/products.json';
 import nossacasa from '../../assets/nossa_casa.png';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function Home() {
   const suggestionOfDishes = [...data].sort(()=> 0.5 - Math.random()).slice(0,3);
+  const navegate = useNavigate();
+
+  function getDetails(id: number){
+    navegate(`/product/${id}`);
+  }
+
   return (
     <section className={styles.container}>
       <h3 className={styles.title}>Sugestaoes da casa</h3>
@@ -16,7 +24,11 @@ export default function Home() {
             <div className={styles.recomendado__imagem}>
               <img src={item.photo} alt={item.title} className={styles.img} />
             </div>
-            <button className={styles.recomendado__botao}>ver mais</button>
+            <button
+              className={styles.recomendado__botao}
+              onClick={()=> getDetails(item.id)}
+            >
+              ver mais</button>
           </div>
         ))}
       </div>

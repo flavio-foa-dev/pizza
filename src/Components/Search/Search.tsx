@@ -5,7 +5,6 @@ import {CgSearch} from 'react-icons/cg';
 import Filters from './filters/Filters';
 import Sort from '../Sort/Sort';
 import ListCard from '../Listcard/ListCard';
-import Footer from '../Footer/Footer';
 
 export default function Search() {
   const { search, setSearch } = useContext<any>(ContextSearch);
@@ -38,7 +37,6 @@ export default function Search() {
         </div>
         <ListCard />
       </section>
-      <Footer/>
     </>
   );
 }
