@@ -1,7 +1,7 @@
 [
   {
     "title": "Macarrão mediterrâneo",
-    "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+    "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Contém camarão e outros frutos-do-mar!",
     "photo": "/assets/pratos/macarrao_mediterraneo.png",
     "size": 400,
     "serving": 2,
@@ -14,7 +14,7 @@
   },
   {
     "title": "Macarrão da casa",
-    "description": "Macarrão com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+    "description": "Macarrão com frutos-do-mar e especíarias, especialidade da cozinha. Contém camarão e outros frutos-do-mar!",
     "photo": "/assets/pratos/macarrao_da_casa.png",
     "size": 400,
     "serving": 2,

@@ -23,6 +23,7 @@ export default function Search() {
             type='text'
             required
             value={search}
+            autoComplete='off'
             placeholder="Busca . ."
           />
           <CgSearch
