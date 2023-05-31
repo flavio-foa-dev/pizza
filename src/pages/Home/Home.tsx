@@ -5,7 +5,16 @@ import { useNavigate } from 'react-router-dom';
 
 
 export default function Home() {
-  const suggestionOfDishes = [...data].sort(()=> 0.5 - Math.random()).slice(0,3);
+  function getScreen() {
+    const screenWidth = window.innerWidth;
+    let size = 4;
+    if (screenWidth >= 1280 && screenWidth < 1600 || screenWidth < 620) {
+      size = 3;
+    }
+    return size;
+  }
+
+  const suggestionOfDishes = [...data].sort(()=> 0.5 - Math.random()).slice(0, getScreen());
   const navegate = useNavigate();
 
   function getDetails(id: number){
