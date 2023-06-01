@@ -20,7 +20,7 @@ export default function Post() {
     const title = item.title;
     const description = item.description;
     const currentURL = window.location.origin + location.pathname;
-    const whatsappURL = `https://web.whatsapp.com/send?text=${encodeURIComponent(
+    const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(
       `${title}: ${description}\n${currentURL}`
     )}`;
     window.open(whatsappURL, '_blank');
