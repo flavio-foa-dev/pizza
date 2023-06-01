@@ -15,25 +15,25 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaParking color="LimeGreen" size={35} title="portifolio"/>
+          <FaParking color="LimeGreen" size={25} title="portifolio"/>
         </a>
         <a href="https://github.com/flavio-foa-dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub color="black" size={35} title="portifolio"/>
+          <FaGithub color="black" size={25} title="portifolio"/>
         </a>
         <a href="https://www.youtube.com/watch?v=r6zV25CrscE&list=PLHT0iYvkz5nDIzS3aUHwbKj4qij1ELyWZ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaYoutube color="red" size={40}title="youtube"/>
+          <FaYoutube color="red" size={30}title="youtube"/>
         </a>
         <a href="http://www.linkedin.com/in/flavio-foa"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin color="dodgerblue" size={35} title="linkesin" />
+          <FaLinkedin color="dodgerblue" size={25} title="linkesin" />
         </a>
       </div>
     </footer>
