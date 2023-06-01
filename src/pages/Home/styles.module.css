@@ -48,6 +48,7 @@ margin-top: 30px;
   margin-bottom: 4rem;
   position: relative;
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 .nossaCasa img {
@@ -72,6 +73,7 @@ margin-top: 30px;
   right: 0;
   width: 22rem;
 }
+
 
 @media screen and (max-width: 1000px)  {
   .container{
@@ -104,11 +106,25 @@ margin-top: 30px;
 }
 
 @media (max-width: 590px) {
-  .recomendado__imagem {
-    width: 22rem;
+  .container{
+    padding: 0 var(--Padding-principal4);
   }
-
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+  .recomendado__imagem {
+    width: 20rem;
+  }
   .recomendados {
     justify-content: center;
+  }
+
+  .nossaCasa__end {
+    height: 5rem;
+    font-weight: normal;
+     width: 17rem;
+     padding: 1rem;
   }
 }

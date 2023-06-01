@@ -20,34 +20,28 @@
   gap: 1rem;
 }
 
-.footer__logo{
+.footer__logo {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
 
-
-
 @media (max-width: 1000px) {
   .footer {
   padding: 1rem var(--Padding-principal2);
-
   }
-
 }
 
 @media (max-width: 780px) {
   .footer {
     padding: 1rem var(--Padding-principal3);
-
-    }
+  }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .footer {
     padding: 1rem var(--Padding-principal4);
-
     flex-direction: column-reverse;
-    }
+  }
 }

@@ -27,3 +27,12 @@
 .filters__tag:hover {
   cursor: pointer;
 }
+
+@media (max-width: 590px) {
+  .filters__tag {
+    width: 45%;
+  }
+  .filters{
+    justify-content: space-between;
+  }
+}

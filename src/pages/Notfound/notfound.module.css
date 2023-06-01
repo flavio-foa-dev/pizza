@@ -1,0 +1,26 @@
+.notFound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 4rem;
+  min-height: 45vh;
+}
+
+.btn__prev {
+  background-color: transparent;
+  border: none;
+  color: var(--Red);
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: var(--Font-Italina);
+}
+
+.title {
+  color: var(--Dark);
+  font-size: 2.5rem;
+  font-family: var(--Font-Italina);
+  font-weight: 600;
+  letter-spacing: .1rem;
+  }
