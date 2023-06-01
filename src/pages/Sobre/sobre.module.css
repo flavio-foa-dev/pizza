@@ -75,5 +75,13 @@
 }
 
 @media (max-width: 590px) {
-
+  .container{
+    padding: 20px var(--Padding-principal4);
+  }
+  .sobre__img{
+    width: 100%;
+  }
+  .container__imgs {
+    gap: 10px;
+  }
 }

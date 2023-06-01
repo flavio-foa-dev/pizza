@@ -13,7 +13,6 @@
   min-width: 240px;
   padding: 10px 40px;
   position: relative;
-
 }
 
 .sorting__ativo {
@@ -28,13 +27,10 @@
   flex-direction: column;
   top: 100%;
   width: 100%;
-
-
 }
 
 .sorting__options__ativo {
   display: flex;
-
 }
 
 .sorting__option {
@@ -54,4 +50,10 @@
   background-color: var(--Blue);
   cursor: pointer;
   color: white;
+}
+
+@media (max-width: 590px) {
+  .sorting {
+    width: 100%;
+  }
 }

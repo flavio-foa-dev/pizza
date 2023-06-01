@@ -52,14 +52,20 @@
   font-size: 1.7rem;
 }
 
-@media (max-width: var(--Desktop_xsm)) {
-  .item__tags{
-    justify-content: flex-end;
-  }
+
+@media screen and (max-width: 1000px)  {
+
 }
 
-@media (max-width: var(--Mobile)) {
+@media screen and (max-width: 780px)  {
+
+}
+
+@media (max-width: 590px) {
   .item__tags{
-    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .item__tipo {
+    width: 100%;
   }
 }
