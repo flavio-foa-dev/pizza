@@ -64,8 +64,10 @@
 @media (max-width: 590px) {
   .item__tags{
     max-width: 100%;
+  justify-content: center;
+
   }
   .item__tipo {
-    width: 100%;
+    width: 80%;
   }
 }
