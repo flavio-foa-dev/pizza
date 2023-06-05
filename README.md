@@ -64,5 +64,4 @@ A estrutura de arquivos do projeto é organizada da seguinte forma:
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você quiser contribuir com melhorias, correções de bugs ou adicionar novos recursos, sinta-se à vontade para enviar um pull request.
-
+p;
